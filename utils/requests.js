@@ -17,9 +17,9 @@ export default{
         title: 'Comedy',
         url: `/discover/movie?api_key=${API_KEY}&with_genres=35`
     },
-    fetcHorrorMovies: {
+    fetchHorrorMovies: {
         title: 'Horror',
-        url: `/discover/movie/week?api_key=${API_KEY}&with_genres=27`
+        url: `/discover/movie?api_key=${API_KEY}&with_genres=27`
     },
     fetchRomanceMovies: {
         title: 'Romance',
@@ -29,20 +29,20 @@ export default{
         title: 'Mystery',
         url: `/discover/movie?api_key=${API_KEY}&with_genres=9648`
     },
-    fetchSciMovies: {
+    fetchSciFi: {
         title: 'Sci-Fi',
-        url: `/discover/movie/week?api_key=${API_KEY}&with_genres=878`
+        url: `/discover/movie?api_key=${API_KEY}&with_genres=878`
     },
-    fetchWesternMovies: {
+    fetchWestern: {
         title: 'Western',
-        url: `/discover/movie/week?api_key=${API_KEY}&with_genres=37`
+        url: `/discover/movie?api_key=${API_KEY}&with_genres=37`
     },
-    fetchAnimationMovies: {
+    fetchAnimation: {
         title: 'Animation',
-        url: `/discover/movie/week?api_key=${API_KEY}&with_genres=16`
+        url: `/discover/movie?api_key=${API_KEY}&with_genres=16`
     },
-    fetchTvMovies: {
+    fetchTv: {
         title: 'TV Movie',
-        url: `/discover/movie/week?api_key=${API_KEY}&with_genres=10770`
+        url: `/discover/movie?api_key=${API_KEY}&with_genres=10770`
     }
 }
